@@ -1,11 +1,11 @@
 import java.util.*;
 
 class Notebook {
-    private String brand;
-    private int ram; // ОЗУ в ГБ
-    private int hdd; // Объем ЖД в ГБ
-    private String os; // Операционная система
-    private String color;
+    private final String brand;
+    private final int ram; // ОЗУ в ГБ
+    private final int hdd; // Объем ЖД в ГБ
+    private final String os; // Операционная система
+    private final String color;
 
     // Конструктор
     public Notebook(String brand, int ram, int hdd, String os, String color) {
